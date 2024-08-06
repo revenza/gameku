@@ -26,7 +26,7 @@ function checkCollision() {
     playerRect.right > obstacleRect.left &&
     playerRect.bottom > obstacleRect.top
   ) {
-    // alert("Game Over");
+    alert("Game Over");
     document.location.reload();
   } else {
     scoreUpdate();
